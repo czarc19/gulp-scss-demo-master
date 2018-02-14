@@ -1,0 +1,36 @@
+// Colors: Greyscale
+$black: #000;
+$white: #fff;
+
+$grey: #808080;
+$grey-1: lighten($black, 25%);
+$grey-2: lighten($black, 50%);
+$grey-3: lighten($black, 75%);
+$grey-4: lighten($black, 100%);
+
+
+$red: #ff3333;
+$red-dark: darken($red, 10%);
+$red-darker: darken($red, 10%);
+$red-darkest: ligthen($red, 10%);
+
+$orange: #ffa500;
+
+// Colors: Fonts
+$font-color-default: $black;
+
+
+// Spacing Variables
+$spacing: 1rem;
+$spacing-2: $spacing * 1.5;
+$spacing-3: $spacing * 2;
+$spacing-4: $spacing * 3;
+$spacing-5: $spacing * 4;
+$spacing-6: $spacing * 5;
+$spacing-7: $spacing * 6;
+
+
+
+
+
+

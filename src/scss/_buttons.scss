@@ -1,0 +1,21 @@
+// Button Variables
+
+$button-padding: 1rem;
+$button-margin: 1rem;
+$button-border-radius: .25rem;
+$button-box-shadow: 0 2px 2px;
+$button-bg: $red;
+$button-bg-hover: #c00c0c;
+
+
+.btn{
+	background: $button-bg;
+	border-radius: $button-border-radius;
+	box-shadow: $button-box-shadow;
+	margin: $button-margin;
+	padding: $button-padding;
+}
+
+.btn:hover {
+	background: $button-bg-hover;
+}
